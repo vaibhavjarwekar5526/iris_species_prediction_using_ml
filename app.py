@@ -28,4 +28,3 @@ if st.button("Predict"):
     species_name = class_labels.get(prediction, "Unknown")
 
     st.success(f"Prediction: {prediction} — {species_name}")
-
